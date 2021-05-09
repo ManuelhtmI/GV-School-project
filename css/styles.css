@@ -1,0 +1,109 @@
+html,
+body * {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nameTitle {
+  margin-left: 0px;
+  font-size: 180px;
+  margin-bottom: 16px;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.book {
+  font-size: 85px;
+  margin-bottom: 16px;
+  letter-spacing: 3px;
+  color: #f633ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.information {
+  color: #e1197a;
+
+  font-size: 85px;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  background-image: url('../assets/background.gif');
+  background-size: contain;
+}
+
+.titles {
+  margin-right: 28%;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  animation-name: rotate;
+  animation-duration: 10s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+.boutons-violet {
+
+  border: none;
+  color: #b5088d;
+  padding: 30px 80px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.boutons-rose {
+ 
+  border: none;
+  color: #ff2eb4;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 1023px) {
+  .home {
+    display: none;
+  }
+
+  .nameTitle {
+    display: none;
+  }
+
+  .titles {
+    display: none;
+  }
+
+  .picture {
+    display: none;
+  }
+
+}

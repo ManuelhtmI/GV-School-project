@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap');
+body{
+  margin: 0;
+  background-image: url(../imagesHabillage/Gaspard.png);
+  background-repeat: no-repeat;
+  background-position:80% bottom;
+  background-size: 58vh;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-block-start: 2em;
+  color: #FF009A;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-block-end: 0em;
+  
+}
+.h22{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-right: 32px;
+}
+
+.h22details {
+  margin-bottom: 16px;
+  margin-right: 12px;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  margin-block-start: 0em;
+}
+li{
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  color: white;
+}
+a:hover{
+  color: #FF009A;
+  -webkit-transition: color 0.2s;
+}
+
+
+
+/* --------------------- */
+
+
+
+.horizontal-menu {
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #FF009A;
+  display: inline-block;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-md-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  /* width: 100%; */
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.blank-space{
+  height: 118px;
+}
+.content-wrap{
+  width: 100%;
+  display: flex;
+  
+}
+
+.lorem {
+
+  margin: 64px 64px 64px 64px;
+  width: 45%;
+
+}
+
+.background {
+  width: 55%;
+  
+}
+
+
+
+/* --------------------- */
+
+
+
+
+.sous-titre {
+  font-size: 80px
+}
+
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  padding: 0px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  margin-block-end: -0.15em;
+  margin-block-start: 0em;
+  font-weight: bold;
+  margin-top:16px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Image {
+  width: 175px;
+  height: 500px;
+  margin-left: 65%;
+  margin-top:16px;
+  }
