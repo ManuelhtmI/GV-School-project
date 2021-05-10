@@ -69,7 +69,8 @@
   transform: scale(1.1);
   transition: ease-in-out 0.5s;
   background-color: grey;
-  }
+  
+}
 .button2:hover h1 {
   color: #a20076;
   -webkit-transition: color 0.2s;
@@ -80,11 +81,11 @@
   color: black;
   padding: 0px 0px;
   text-decoration: none;
-  margin-left: 1vw;
+  margin-left: 2vw;
   cursor: pointer;
   font-size: 40px;
   position: fixed;
-  top : -8%;
+  top : 5%;
   font-family: 'Roboto', sans-serif;}
 
 .silhouette {
