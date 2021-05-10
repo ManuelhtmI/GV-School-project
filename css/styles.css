@@ -7,7 +7,6 @@ body * {
 .nameTitle {
   margin-left: 0px;
   font-size: 180px;
-  margin-bottom: 16px;
   letter-spacing: 3px;
   margin-top: 0px;
   font-family: "Roboto", sans-serif;
@@ -15,10 +14,9 @@ body * {
 
 .book {
   font-size: 85px;
-  margin-bottom: 16px;
   letter-spacing: 3px;
   color: #f633ff;
-  font-family: "Roboto", sans-serif;
+  
 }
 
 .information {
@@ -39,6 +37,7 @@ body * {
   height: 100vh;
   background-image: url('../assets/background.gif');
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .titles {
@@ -72,6 +71,9 @@ body * {
   font-size: 80px;
   margin-left: 0px;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif ;
+  font-weight: bold;
+
 }
 .boutons-rose {
  
@@ -83,6 +85,11 @@ body * {
   font-size: 80px;
   margin-left: 0px;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+
+
+
 }
 
 .mobile {
