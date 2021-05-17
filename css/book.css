@@ -6,10 +6,6 @@ a {
   text-decoration: none;
   color: black;
 }
-a:hover {
-  color: #a20076;
-  -webkit-transition: color 0.2s;
-}
 h1 {
   color: black;
   font-size: 50px;
@@ -75,7 +71,7 @@ p {
 }
 
 /* --------------------- */
-/* 
+/*
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -162,22 +158,22 @@ p {
   margin-bottom: 8px;
   cursor: pointer;
 }
-
+.column2 img {
+  width: 350px;
+  height: 350px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
 .column1,
 .column2,
 .column3 {
   display: flex;
   flex-direction: column;
 }
-.column2 img {
-  width: 300px;
-  height: 250px;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
 .column3 img {
   width: 350px;
-  height: 200px;
+  height: 350px;
   margin-top: 32px;
-  margin-bottom: 68px;
+  margin-bottom: 8px;
 }

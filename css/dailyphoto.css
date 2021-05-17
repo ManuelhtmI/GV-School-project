@@ -69,10 +69,10 @@
   transform: scale(1.1);
   transition: ease-in-out 0.5s;
   background-color: grey;
-  
+
 }
-.button2:hover h1 {
-  color: #a20076;
+h6:hover {
+  color: #FF6200;
   -webkit-transition: color 0.2s;
 }
 
@@ -85,11 +85,64 @@
   cursor: pointer;
   font-size: 40px;
   position: fixed;
-  top : 5%;
+  top : 10%;
   font-family: 'Roboto', sans-serif;}
+
+  .button3 {
+    border: none;
+    color: black;
+    padding: 0px 0px;
+    text-decoration: none;
+    margin-left: 2vw;
+    cursor: pointer;
+    font-size: 20px;
+    position: fixed;
+    top : 5%;
+    font-family: 'Roboto', sans-serif;}
 
 .silhouette {
   width: 450px;
   height: 250px;
 }
+.littlePics2 img {
+  margin: 8px 8px 8px 8px;
+  width: 490px;
+  height: 490px;
+  cursor: pointer;
+}
+.plan img{
+  width: 500px
+  height 500px
 
+}
+.littlePics2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.littlePics3 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 8px 8px 8px;
+  width: 490px;
+  height: 330px;
+  cursor: pointer;
+}
+.littlePics4 img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 8px 8px 8px;
+  width: 490px;
+  height: 750px;
+  cursor: pointer;
+}
+.gallery2 {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12vh;
+  margin-left: 12vh;
+}

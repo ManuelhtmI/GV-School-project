@@ -16,7 +16,7 @@ body * {
   font-size: 85px;
   letter-spacing: 3px;
   color: #f633ff;
-  
+
 }
 
 .information {
@@ -63,7 +63,7 @@ body * {
 .boutons-violet {
 
   border: none;
-  color: #b5088d;
+  color: #FF6200;
   padding: 30px 80px;
   text-align: left;
   text-decoration: none;
@@ -76,7 +76,7 @@ body * {
 
 }
 .boutons-rose {
- 
+
   border: none;
   color: #ff2eb4;
   text-align: left;
